@@ -1,0 +1,27 @@
+body {
+    margin: 0px;
+    background: linear-gradient(rgb(147, 252, 199), rgb(121, 121, 235));
+    background-repeat: no-repeat;
+    height: 768px;
+}
+
+
+/* text allignment */
+
+h1,
+h2,
+h3,
+p {
+    text-align: center;
+}
+
+.middle-section {
+    margin-left: 33.33%;
+}
+
+#text-area,
+#translation-output {
+    width: 800px;
+    height: 125px;
+    background-color: white;
+}
