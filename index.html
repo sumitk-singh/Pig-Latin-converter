@@ -18,9 +18,11 @@
 
     <!-- middle section  -->
     <div class="middle-section">
-        <textarea name="text-area" id="text-area" cols="30" rows="10"></textarea>
-        <button class="convert-btn">Convert</button>
-        <div id="translation-output"></div>
+        <textarea name="text-area" id="user-input" cols="30" rows="10" placeholder="type here..."></textarea>
+        <button class="convert-btn" style="background-color: rgb(13, 241, 13);" onclick="convert()">Convert</button>
+        <button class="clear-btn" style="background-color: rgb(247, 124, 124);" onclick="clearInput()">Clear</button>
+
+        <div id="conversion-output"></div>
     </div>
 
     <!-- footer section   -->
