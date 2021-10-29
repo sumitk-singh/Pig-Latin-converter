@@ -1,7 +1,7 @@
 function convert() {
     var userInput = document.querySelector('#user-input').value;
 
-    const url = 'https://api.funtranslations.com/translate/pirate.json?text=';
+    const url = 'https://api.funtranslations.com/translate/pig-latin.json?text=';
     fetch(url + userInput)
         .then(response => response.json())
         .then(data => document.querySelector('#conversion-output').innerText = userInput);
